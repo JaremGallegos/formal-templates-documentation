@@ -1,0 +1,12 @@
+D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\deps\libspdx-0420f9dcc3dcd7ac.rmeta: C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\error.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\expression.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\expression\minimize.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\expression\parser.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\identifiers.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\lexer.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\licensee.rs
+
+D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\deps\spdx-0420f9dcc3dcd7ac.d: C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\error.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\expression.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\expression\minimize.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\expression\parser.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\identifiers.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\lexer.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\licensee.rs
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\lib.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\error.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\expression.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\expression\minimize.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\expression\parser.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\identifiers.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\lexer.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spdx-0.10.8\src\licensee.rs:

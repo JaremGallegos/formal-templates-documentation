@@ -1,0 +1,12 @@
+D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\deps\libgif-5793addcbfae81a1.rmeta: C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\traits.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\common.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\reader\mod.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\reader\decoder.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\reader\converter.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\encoder.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\../README.md
+
+D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\deps\gif-5793addcbfae81a1.d: C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\traits.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\common.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\reader\mod.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\reader\decoder.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\reader\converter.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\encoder.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\../README.md
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\lib.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\traits.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\common.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\reader\mod.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\reader\decoder.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\reader\converter.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\encoder.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\gif-0.13.1\src\../README.md:

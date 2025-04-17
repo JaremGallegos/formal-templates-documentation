@@ -1,0 +1,833 @@
+OPT_LEVEL = Some(0)
+OUT_DIR = Some(D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\build\libwebp-sys-22afdd851b9ab4e2\out)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\deps;D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug;C:\Users\user\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\tools\ruby34\bin;C:\Program Files\Eclipse Adoptium\jre-21.0.6.7-hotspot\bin;D:\CarpetaProtegida\CPO-1\PROGRAMAS\CCPP\gcc\bin;D:\CarpetaProtegida\CPO-1\PROGRAMAS\CCPP\gcc\libexec\gcc\x86_64-w64-mingw32\14.2.0;C:\Python312\Scripts\;C:\Python312\;D:\CarpetaProtegida\CPO-1\PROGRAMAS\VMWare\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\msys64\mingw64\bin;C:\Users\user\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;%NVM_HOME%;C:\Program Files\nodejs;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Kotlin\kotlinc\bin;C:\Program Files\Git\cmd;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Node\;C:\Program Files\dotnet\;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Docker\Docker\resources\bin;C:\Users\user\AppData\Roaming\npm;D:\CarpetaProtegida\CPO-1\PROGRAMAS\CCPP\gcc\bin;D:\CarpetaProtegida\CPO-1\PROGRAMAS\PHP;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Emacs\emacs-30.1\bin;C:\Users\user\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.4\bin\;C:\Users\user\scoop\shims;C:\Users\user\AppData\Local\Programs\Python\Python311;C:\Users\user\miniconda3;C:\Users\user\miniconda3\Library\mingw-w64\bin;C:\Users\user\miniconda3\Library\usr\bin;C:\Users\user\miniconda3\Library\bin;C:\Users\user\miniconda3\Scripts;C:\Users\user\.console-ninja\.bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Vim\vim90;C:\Users\user\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\tools\neovim\nvim-win64\bin;C:\Program Files\Azure Data Studio\bin;D:\Latex\miktex\bin\x64\;C:\Program Files\MongoDB\Server\7.0\bin;D:\CarpetaProtegida\CPO-2\Programas IDE\Visual Studio Code\Microsoft VS Code\bin;C:\Users\user\AppData\Local\Programs\oh-my-posh\bin;C:\Program Files\Java\jdk-21;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Maven\apache-maven-3.9.8;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Maven\apache-maven-3.9.8\bin;D:\CarpetaProtegida\CPO-1\PROGRAMA;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\;C:\Users\user\.bun\bin;C:\Users\user\.deno\bin;C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\aristocratos.btop4win_Microsoft.Winget.Source_8wekyb3d8bbwe\btop4win;C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\tldr-pages.tlrc_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\user\.lmstudio\bin;C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe\typst-x86_64-pc-windows-msvc;C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\Myriad-Dreamin.Tinymist_Microsoft.Winget.Source_8wekyb3d8bbwe;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Gradle\gradle-8.13\bin;C:\Users\user\.dotnet\tools;C:\Users\user\.cargo\bin;)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(true)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+OPT_LEVEL = Some(0)
+OUT_DIR = Some(D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\build\libwebp-sys-22afdd851b9ab4e2\out)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\deps;D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug;C:\Users\user\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\tools\ruby34\bin;C:\Program Files\Eclipse Adoptium\jre-21.0.6.7-hotspot\bin;D:\CarpetaProtegida\CPO-1\PROGRAMAS\CCPP\gcc\bin;D:\CarpetaProtegida\CPO-1\PROGRAMAS\CCPP\gcc\libexec\gcc\x86_64-w64-mingw32\14.2.0;C:\Python312\Scripts\;C:\Python312\;D:\CarpetaProtegida\CPO-1\PROGRAMAS\VMWare\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\msys64\mingw64\bin;C:\Users\user\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;%NVM_HOME%;C:\Program Files\nodejs;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Kotlin\kotlinc\bin;C:\Program Files\Git\cmd;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Node\;C:\Program Files\dotnet\;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Docker\Docker\resources\bin;C:\Users\user\AppData\Roaming\npm;D:\CarpetaProtegida\CPO-1\PROGRAMAS\CCPP\gcc\bin;D:\CarpetaProtegida\CPO-1\PROGRAMAS\PHP;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Emacs\emacs-30.1\bin;C:\Users\user\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.4\bin\;C:\Users\user\scoop\shims;C:\Users\user\AppData\Local\Programs\Python\Python311;C:\Users\user\miniconda3;C:\Users\user\miniconda3\Library\mingw-w64\bin;C:\Users\user\miniconda3\Library\usr\bin;C:\Users\user\miniconda3\Library\bin;C:\Users\user\miniconda3\Scripts;C:\Users\user\.console-ninja\.bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Vim\vim90;C:\Users\user\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\tools\neovim\nvim-win64\bin;C:\Program Files\Azure Data Studio\bin;D:\Latex\miktex\bin\x64\;C:\Program Files\MongoDB\Server\7.0\bin;D:\CarpetaProtegida\CPO-2\Programas IDE\Visual Studio Code\Microsoft VS Code\bin;C:\Users\user\AppData\Local\Programs\oh-my-posh\bin;C:\Program Files\Java\jdk-21;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Maven\apache-maven-3.9.8;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Maven\apache-maven-3.9.8\bin;D:\CarpetaProtegida\CPO-1\PROGRAMA;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\;C:\Users\user\.bun\bin;C:\Users\user\.deno\bin;C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\aristocratos.btop4win_Microsoft.Winget.Source_8wekyb3d8bbwe\btop4win;C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\tldr-pages.tlrc_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\user\.lmstudio\bin;C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe\typst-x86_64-pc-windows-msvc;C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\Myriad-Dreamin.Tinymist_Microsoft.Winget.Source_8wekyb3d8bbwe;D:\CarpetaProtegida\CPO-1\PROGRAMAS\Gradle\gradle-8.13\bin;C:\Users\user\.dotnet\tools;C:\Users\user\.cargo\bin;)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(true)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+sharpyuv_cpu.c
+sharpyuv.c
+sharpyuv_csp.c
+sharpyuv_dsp.c
+sharpyuv_gamma.c
+sharpyuv_neon.c
+sharpyuv_sse2.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv_gamma.c(113): warning C4244: "return": Konvertierung von "uint32_t" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv_gamma.c(391): warning C4244: "return": Konvertierung von "uint32_t" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv_dsp.c(25): warning C4244: "return": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv_dsp.c(47): warning C4244: "+=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv_sse2.c(21): warning C4244: "return": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv_sse2.c(31): warning C4244: "Funktion": Konvertierung von "const int" in "short", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv_sse2.c(72): warning C4244: "+=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv_sse2.c(82): warning C4244: "Funktion": Konvertierung von "const int" in "short", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv_sse2.c(136): warning C4244: "Funktion": Konvertierung von "const int" in "short", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(62): warning C4244: "return": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(67): warning C4244: "return": Konvertierung von "const int" in "fixed_y_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(134): warning C4244: "=": Konvertierung von "int" in "fixed_y_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(167): warning C4244: "=": Konvertierung von "int" in "fixed_y_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(168): warning C4244: "=": Konvertierung von "int" in "fixed_y_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(169): warning C4244: "=": Konvertierung von "int" in "fixed_y_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(171): warning C4244: "=": Konvertierung von "int" in "fixed_y_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(172): warning C4244: "=": Konvertierung von "int" in "fixed_y_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(173): warning C4244: "=": Konvertierung von "int" in "fixed_y_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(252): warning C4244: "Funktion": Konvertierung von "const int" in "fixed_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(254): warning C4244: "Funktion": Konvertierung von "const int" in "fixed_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(272): warning C4244: "Funktion": Konvertierung von "const int" in "fixed_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(273): warning C4244: "Funktion": Konvertierung von "const int" in "fixed_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(275): warning C4244: "Funktion": Konvertierung von "const int" in "fixed_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(276): warning C4244: "Funktion": Konvertierung von "const int" in "fixed_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\sharpyuv\sharpyuv.c(310): warning C4245: "Initialisierung": Konvertierung von "int" in "uint64_t", signed/unsigned-Konflikt.
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rustc-link-lib=static=sharpyuv
+cargo:rustc-link-search=native=D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\build\libwebp-sys-22afdd851b9ab4e2\out
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+alpha_dec.c
+buffer_dec.c
+frame_dec.c
+idec_dec.c
+io_dec.c
+quant_dec.c
+tree_dec.c
+vp8_dec.c
+vp8l_dec.c
+webp_dec.c
+anim_decode.c
+demux.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\frame_dec.c(304): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\frame_dec.c(305): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\frame_dec.c(310): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\frame_dec.c(366): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\io_dec.c(221): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\io_dec.c(460): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\tree_dec.c(302): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\tree_dec.c(306): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\tree_dec.c(315): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\tree_dec.c(348): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\tree_dec.c(352): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\tree_dec.c(526): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\tree_dec.c(536): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(172): warning C4244: "=": Konvertierung von "int" in "int8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(176): warning C4244: "=": Konvertierung von "int" in "int8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(183): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(358): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(359): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(461): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(491): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(539): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(557): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(562): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(578): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(583): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(590): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(591): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8l_dec.c(1035): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dec\vp8_dec.c(599): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+alpha_processing.c
+alpha_processing_mips_dsp_r2.c
+alpha_processing_neon.c
+alpha_processing_sse2.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(151): warning C4244: "Funktion": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(152): warning C4244: "Funktion": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlustalpha_processing_sse41.c
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(153): warning C4244: "Funktion": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(171): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(236): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(237): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(238): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(261): warning C4244: "return": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(274): warning C4244: "Funktion": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(275): warning C4244: "Funktion": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(276): warning C4244: "Funktion": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(304): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing.c(349): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+cost.c
+cost_mips32.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing_sse2.c(64): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing_sse2.c(136): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing_sse2.c(184): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing_sse2.c(221): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing_sse2.c(243): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+cost_mips_dsp_r2.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing_sse2.c(244): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing_sse2.c(245): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing_sse2.c(258): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing_sse2.c(272): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\alpha_processing_sse41.c(67): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+cost_neon.c
+cost_sse2.c
+cpu.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+dec_clip_tables.c
+dec_mips32.c
+dec.c
+dec_mips_dsp_r2.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+dec_neon.c
+dec_msa.c
+dec_sse2.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+dec_sse41.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\cost.c(331): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\cost.c(334): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlustenc.c
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\cost.c(351): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\cost_sse2.c(56): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\cost_sse2.c(59): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\cost_sse2.c(99): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(23): warning C4244: "return": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(156): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(157): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(158): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(159): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(339): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(340): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(341): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(342): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(361): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(362): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(363): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(364): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(379): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(380): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(381): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(386): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(399): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(400): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(401): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(402): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(451): warning C4244: "Funktion": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(460): warning C4244: "Funktion": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec.c(469): warning C4244: "Funktion": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(21): warning C4244: "return": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(282): warning C4244: "Funktion": Konvertierung von "int" in "char", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(179): warning C4244: "=": Konvertierung von "int" in "int16_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(329): warning C4310: Typumwandlung verkürzt konstante Werte
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(181): warning C4244: "=": Konvertierung von "int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(343): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(217): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(363): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(218): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(219): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(383): warning C4310: Typumwandlung verkürzt konstante WerteC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(220): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(430): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(429): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(430): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(431): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(680): warning C4244: "Funktion": Konvertierung von "int" in "char", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(432): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(451): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(452): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(453): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(454): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(469): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(470): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(471): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(476): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(489): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(490): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(491): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(492): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(668): warning C4244: "=": Konvertierung von "int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc.c(669): warning C4244: "=": Konvertierung von "int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(955): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(956): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(1023): warning C4244: "Funktion": Konvertierung von "const int" in "short", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(1032): warning C4244: "Funktion": Konvertierung von "const int" in "short", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(1042): warning C4244: "Funktion": Konvertierung von "const int" in "short", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(1093): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(1103): warning C4244: "Funktion": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(1113): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(1151): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(1160): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\dec_sse2.c(1169): warning C4244: "Funktion": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+enc_mips32.c
+enc_mips_dsp_r2.c
+enc_msa.c
+enc_neon.c
+enc_sse2.c
+enc_sse41.c
+filters.c
+filters_mips_dsp_r2.c
+filters_msa.c
+filters_sse2.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+filters_neon.c
+lossless_enc.c
+lossless.c
+lossless_enc_mips32.c
+lossless_enc_mips_dsp_r2.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(637): warning C4244: "Funktion": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(639): warning C4244: "Funktion": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(712): warning C4244: "Funktion": Konvertierung von "const int" in "short", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(722): warning C4244: "Funktion": Konvertierung von "const int" in "short", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(758): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlustlossless_enc_msa.c
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(766): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(799): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(805): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(923): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(924): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(976): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(977): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(978): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(979): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(980): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(981): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(983): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(996): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(997): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(998): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(999): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(1001): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(1002): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(1003): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(1004): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(1005): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(1006): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\enc_sse2.c(1016): warning C4244: "Funktion": Konvertierung von "const int" in "short", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+lossless_enc_neon.c
+lossless_enc_sse2.c
+lossless_enc_sse41.c
+lossless_mips_dsp_r2.c
+lossless_msa.c
+lossless_neon.c
+lossless_sse2.c
+lossless_sse41.c
+rescaler.c
+rescaler_mips32.c
+rescaler_mips_dsp_r2.c
+rescaler_msa.c
+rescaler_neon.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\rescaler.c(182): warning C4244: "=": Konvertierung von "rescaler_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\lossless_enc_sse2.c(345): warning C4310: Typumwandlung verkürzt konstante Werte
+ssim.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\lossless_enc_sse2.c(364): warning C4310: Typumwandlung verkürzt konstante Werte
+rescaler_sse2.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\lossless_sse2.c(415): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\lossless_sse2.c(417): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\lossless_sse2.c(419): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\lossless_sse2.c(560): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\lossless_sse2.c(595): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\lossless_sse2.c(596): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\rescaler_sse2.c(117): warning C4244: "Funktion": Konvertierung von "const int" in "short", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\rescaler_sse2.c(144): warning C4244: "Funktion": Konvertierung von "int" in "short", möglicher Datenverlust
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+ssim_sse2.c
+upsampling.c
+upsampling_mips_dsp_r2.c
+upsampling_msa.c
+upsampling_neon.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlustupsampling_sse2.c
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\upsampling.c(97): warning C4244: "Funktion": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\upsampling.c(98): warning C4244: "Funktion": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\upsampling.c(100): warning C4244: "Funktion": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+upsampling_sse41.c
+yuv.c
+yuv_mips32.c
+yuv_mips_dsp_r2.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+yuv_neon.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+yuv_sse2.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\upsampling_sse2.c(168): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlustexit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\upsampling_sse2.c(169): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(125): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\upsampling_sse2.c(174): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(145): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(146): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlustalpha_enc.c
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(149): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(150): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(161): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(162): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(164): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlustyuv_sse41.c
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(165): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(175): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(182): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(191): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv.c(192): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+backward_references_cost_enc.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlustbackward_references_enc.c
+analysis_enc.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse2.c(41): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse2.c(135): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse2.c(152): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse2.c(155): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse2.c(595): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse2.c(629): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse2.c(646): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\alpha_enc.c(169): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\backward_references_cost_enc.c(334): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\backward_references_cost_enc.c(487): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\backward_references_cost_enc.c(703): warning C4244: "=": Konvertierung von "const int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\backward_references_cost_enc.c(732): warning C4244: "Funktion": Konvertierung von "const int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse41.c(41): warning C4310: Typumwandlung verkürzt konstante Werte
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse41.c(440): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse41.c(474): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\dsp\yuv_sse41.c(491): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\analysis_enc.c(57): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\analysis_enc.c(207): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\analysis_enc.c(328): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\backward_references_enc.c(493): warning C4244: "Funktion": Konvertierung von "const int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\backward_references_enc.c(499): warning C4244: "Funktion": Konvertierung von "const int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\backward_references_enc.c(569): warning C4244: "Funktion": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\backward_references_enc.c(723) : warning C4701: Die möglicherweise nicht initialisierte lokale Variable "best_offset" wurde verwendet.
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+config_enc.c
+cost_enc.c
+filter_enc.c
+frame_enc.c
+histogram_enc.c
+iterator_enc.c
+near_lossless_enc.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+picture_csp_enc.c
+picture_enc.c
+picture_psnr_enc.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+picture_rescale_enc.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+picture_tools_enc.c
+predictor_enc.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\cost_enc.c(74): warning C4244: "=": Konvertierung von "const int" in "uint16_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(118): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\cost_enc.c(76): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(138): warning C4244: "Funktion": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(138): warning C4244: "Funktion": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(161): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(163): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\histogram_enc.c(607): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\histogram_enc.c(636): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\histogram_enc.c(662): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\histogram_enc.c(669): warning C4244: "=": Konvertierung von "int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\histogram_enc.c(1067): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\histogram_enc.c(1121): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(166): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\histogram_enc.c(1138): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(168): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(172): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(215): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(216): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(217): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(506): warning C4244: "=": Konvertierung von "const unsigned int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(507): warning C4244: "=": Konvertierung von "const unsigned int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(508): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(510): warning C4244: "=": Konvertierung von "const unsigned int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\frame_enc.c(513): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(81): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(82): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(83): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC
+:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(88): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(89): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(90): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(104): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(105): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(120): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/dsp/yuv.h(121): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_tools_enc.c(217): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_tools_enc.c(230): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(384): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_tools_enc.c(231): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_tools_enc.c(235): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(408): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_tools_enc.c(236): warning C4244: "=": Konvertierung von "const uint32_t" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(409): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(410): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(411): warning C4244: "=": Konvertierung von "const uint32_t" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(425): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(426): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(427): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(428): warning C4244: "=": Konvertierung von "const uint32_t" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(439): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(440): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(441): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(450): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(451): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(452): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(467): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\picture_csp_enc.c(468): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\predictor_enc.c(144): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\predictor_enc.c(166): warning C4244: "return": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\predictor_enc.c(168): warning C4244: "return": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\predictor_enc.c(175): warning C4244: "return": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+quant_enc.c
+syntax_enc.c
+token_enc.c
+tree_enc.c
+vp8l_enc.c
+webp_enc.c
+anim_encode.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+muxedit.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+muxinternal.c
+muxread.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+bit_reader_utils.c
+bit_writer_utils.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(214): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\token_enc.c(97): warning C4244: "=": Konvertierung von "uint32_t" in "uint16_t", möglicher DatenverlustC:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\syntax_enc.c(138): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\syntax_enc.c(140): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(630): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\token_enc.c(109): warning C4244: "=": Konvertierung von "uint32_t" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(635): warning C4244: "Funktion": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(710): warning C4244: "=": Konvertierung von "const int" in "int8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(711): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(712): warning C4244: "=": Konvertierung von "int" in "int8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(751): warning C4244: "=": Konvertierung von "int" in "int8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(868): warning C4244: "=": Konvertierung von "const int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(894): warning C4244: "+=": Konvertierung von "int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(896): warning C4244: "+=": Konvertierung von "int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(898): warning C4244: "+=": Konvertierung von "int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(945): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(1155): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\quant_enc.c(1316): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src/utils/bit_writer_utils.h(135): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\mux\muxedit.c(283): warning C4389: "!=": Konflikt zwischen "signed" und "unsigned"
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\vp8l_enc.c(1330): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\vp8l_enc.c(1351): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\vp8l_enc.c(1358): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\vp8l_enc.c(1360): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\vp8l_enc.c(1362): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\enc\vp8l_enc.c(1368): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\mux\anim_encode.c(1014): warning C4245: "Initialisierung": Konvertierung von "int" in "size_t", signed/unsigned-Konflikt.
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\bit_writer_utils.c(71): warning C4244: "=": Konvertierung von "const int" in "uint8_t", möglicher Datenverlust
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+color_cache_utils.c
+filters_utils.c
+huffman_encode_utils.c
+huffman_utils.c
+palette.c
+quant_levels_dec_utils.c
+quant_levels_utils.c
+random_utils.c
+rescaler_utils.c
+thread_utils.c
+utils.c
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\huffman_encode_utils.c(142): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\huffman_encode_utils.c(266): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\huffman_encode_utils.c(275): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\huffman_encode_utils.c(282): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\huffman_encode_utils.c(308): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\huffman_encode_utils.c(313): warning C4244: "=": Konvertierung von "int" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\huffman_encode_utils.c(399): warning C4244: "=": Konvertierung von "uint32_t" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\huffman_utils.c(125): warning C4244: "=": Konvertierung von "int" in "uint16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\palette.c(228): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\palette.c(237): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\palette.c(335): warning C4244: "=": Konvertierung von "uint32_t" in "uint8_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\quant_levels_dec_utils.c(177): warning C4244: "=": Konvertierung von "int" in "int16_t", möglicher Datenverlust
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libwebp-sys-0.9.6\vendor\src\utils\quant_levels_dec_utils.c(178): warning C4244: "=": Konvertierung von "int" in "int16_t", möglicher Datenverlust
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rustc-link-lib=static=webpsys
+cargo:rustc-link-search=native=D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\build\libwebp-sys-22afdd851b9ab4e2\out

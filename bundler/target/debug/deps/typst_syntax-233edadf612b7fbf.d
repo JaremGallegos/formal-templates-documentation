@@ -1,0 +1,22 @@
+D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\deps\libtypst_syntax-233edadf612b7fbf.rmeta: C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\lib.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\ast.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\package.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\file.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\highlight.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\kind.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\lexer.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\node.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\parser.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\path.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\reparser.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\set.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\source.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\span.rs
+
+D:\PROYECTOS\SD-Formal-Documents\bundler\target\debug\deps\typst_syntax-233edadf612b7fbf.d: C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\lib.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\ast.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\package.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\file.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\highlight.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\kind.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\lexer.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\node.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\parser.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\path.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\reparser.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\set.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\source.rs C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\span.rs
+
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\lib.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\ast.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\package.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\file.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\highlight.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\kind.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\lexer.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\node.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\parser.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\path.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\reparser.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\set.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\source.rs:
+C:\Users\user\.cargo\git\checkouts\typst-bdd39722d2f25244\3c22902\crates\typst-syntax\src\span.rs:
+
+# env-dep:CARGO_PKG_VERSION_MAJOR=0
+# env-dep:CARGO_PKG_VERSION_MINOR=11
+# env-dep:CARGO_PKG_VERSION_PATCH=0
