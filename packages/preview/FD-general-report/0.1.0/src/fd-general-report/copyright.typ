@@ -5,7 +5,7 @@
   set page(margin: auto)
   v(1fr) 
   text(weight: "bold", title)
-  text(description + " " + date)
+  text(description + " / " + date)
   v(1em)
   text("By")  
   v(-5pt)
