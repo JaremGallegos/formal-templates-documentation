@@ -5,11 +5,11 @@
   set page(margin: auto)
   v(1fr) 
   text(weight: "bold", title)
-  v(1em)[#description \ #date]
+  text(description + " " + date)
   v(1em)
   text("By")  
   v(-5pt)
-  grid(gutter: 5pt, ..authors.map(author => authors),)
+  grid(gutter: 5pt, ..authors)
   v(1em)
   grid(
     columns: (auto, 1fr), rows: (auto, auto, auto), gutter: 1em, row-gutter: 1.2em,
@@ -18,4 +18,4 @@
       [Published by:], [#department, #educational-center, #address-i, #address-ii],)
   pagebreak()
   body
-}
+} 

@@ -26,7 +26,7 @@
   }
 
   // SETUP
-  set text(size: 10pt, fill: block)
+  set text(size: 10pt, fill: black)
   set document(author: authors, title: title)
   set page(numbering: none, number-align: center, fill: none, margin: auto)
   set par(leading: 0.65em)
@@ -58,7 +58,7 @@
   }
 
   // MAIN
-  set page(numbering: "1", numbering-align: center)
+  set page(numbering: "1", number-align: center)
   set heading(numbering: "1.1")
   counter(page).update(1)
   set par(justify: true)

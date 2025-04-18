@@ -50,12 +50,12 @@
 
   #text(it.body)
   #v(-12pt)
-  #line(length: 100%, stroke: 2pt * rgb("#555555"))
+  #line(length: 100%, stroke: rgb("#555555"))
 ]
 
 #let numbering-headline(c) = {
   if c.numbering != none {
-    return numberign(c.numbering,..counter(heading).at(c.location()))
+    return numbering(c.numbering, ..counter(heading).at(c.location()))
   }
   return ""
 }
