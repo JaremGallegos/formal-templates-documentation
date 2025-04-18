@@ -1,0 +1,1 @@
+std::iter::Map<std::slice::Iter<'_, model::FullIndexPackageInfo>, model::IndexPackageInfo>: Serialize

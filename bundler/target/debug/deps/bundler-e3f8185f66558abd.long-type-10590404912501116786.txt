@@ -1,0 +1,2 @@
+std::iter::Map<std::slice::Iter<'_, model::FullIndexPackageInfo>, fn(&model::FullIndexPackageInfo) -> model::IndexPackageInfo {<model::IndexPackageInfo as From<&model::FullIndexPackageInfo>>::from}>
+std::iter::Map<std::slice::Iter<'_, model::FullIndexPackageInfo>, fn(&model::FullIndexPackageInfo) -> model::IndexPackageInfo {<model::IndexPackageInfo as From<&model::FullIndexPackageInfo>>::from}>: Serialize
