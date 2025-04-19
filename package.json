@@ -1,0 +1,12 @@
+{
+  "name": "sd-formal-documents",
+  "version": "1.0.0",
+  "description": "<a href=\"https://github.com/JaremGallegos/miemacs.git\"><img align=\"center\" src=\"/assets/miemacs.png\"></a>",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,11 @@
+{
+    "showThemeCredit": true,
+    "name": "PMI-Dodcuments Web",
+    "short-desc": "This project have a starter kit to help you create own templates.",
+    "url": "https://jaremgallegos.github.io/SD-PMI-Documents",
+    "authorEmail": "jaremgallegosp@gmail.com",
+    "authorHandle": "@jaremgallegosp",
+    "authorName": "Joseph Gallegos",
+    "enableThirdPartyComments": false,
+    "maxPostsPerPage": 5
+}
