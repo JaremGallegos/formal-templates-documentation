@@ -1,6 +1,5 @@
 #import "../../../../src/lib.typ": *
 #import "@preview/mitex:0.2.5": *
-#import "@preview/plotst:0.2.0": *
 
 = Datos Muestrales Observados
 #lorem(30)
@@ -132,11 +131,17 @@
 
 == Coeficiente de Curtosis Percentílico
 #let Kp = (p90 - p10) / (2 * (q3 - q1))
-#mitex(``)
+#mitex(`K_{p} =\frac{Q_{3} -Q_{1}}{2\cdotp ( P_{90} -P_{10})} =\frac{116-74}{2\cdotp ( 142-66)} =\frac{42}{2\cdotp 76} =\frac{42}{152} \approx 0.2763`)
+#lorem(40)
+#mitex(`if\ K_{p}  >0,263\rightarrow platikúrtica`)
+#lorem(20)
+
+== Coeficiente de asimetría de Pearson
+#let Sp = 3 * (media - mediana) / 30.03
+#mitex(`S_{p} =\frac{3\cdotp (\overline{X} -\overline{X}_{m})}{S} =\frac{3\cdotp ( 97.55-98)}{30.03} =\frac{3\cdotp ( -0.45)}{30.03} =\frac{-1.35}{30.03} \approx -0.045`)
 #lorem(40)
 
-// 8. Coeficiente de asimetría de Pearson
-#let Sp = 3 * (media - mediana) / 30.03
+= #text("Aplicación de Gráfico Histográfico")
 
 Suma: #suma \
 Media: #media \ 
@@ -147,7 +152,4 @@ Varianza (muestral): #var \
 Desviación estandar (muestral): #sd \
 Coeficiente de curtosis percentílico (Kp): #Kp \
 Coeficiente de asimetría de Pearson (SP): #Sp
-
-varianza: #var
-
 #pagebreak()
