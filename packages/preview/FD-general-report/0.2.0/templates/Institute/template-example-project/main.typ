@@ -2,7 +2,7 @@
 
 #set text(font: "Gill Sans MT", lang: "es")
 #show: fd-general-report.with(
-  title: "Desarrollo de una Plataforma Integral para la Gestión del Aprendizaje y \nAdministración Educacional",
+  title: "Propuesta de Solución Logística de Aprovisionamiento Orientada a la Optimización del Sistema Logístico de CASAPI Concesiones S.A. 2025",
   description: "Proyecto Final de Curso",
   authors: (
     "Pineda Sulca, Ismael Sebastian",
@@ -24,12 +24,19 @@
     readers-guide: include "sections/preface/readers-guide.typ",
   ),
 )
-
+#include "sections/preface/abstract.typ"
 #include "sections/introduction.typ"
+#include "sections/diagnostivo.typ"
+#include "sections/objetivos-smart.typ"
+#include "sections/justificacion.typ"
+#include "sections/alcance.typ"
+#include "sections/propuesta-accion.typ"
 #include "sections/conclusion.typ"
+#include "sections/recomendacion.typ"
+#include "sections/anexos.typ"
 
 #pagebreak()
-#bibliography("works.bib")
+//#bibliography("works.bib", title: content, full: true)
 
 #pagebreak()
 #include "sections/appendix.typ"

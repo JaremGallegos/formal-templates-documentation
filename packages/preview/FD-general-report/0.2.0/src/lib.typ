@@ -6,7 +6,7 @@
 #let hide-formalities = false
 #let fd-general-report(
   title: "", description: "", authors: (), date: none, course: "",  educational-center: "", department: "", department-full-title: "", 
-  address-i: "", address-ii: "", department-website: "", before: (), frontpage-input: none, background-color: rgb("#000000"),
+  address-i: "", address-ii: "", department-website: "", before: (), frontpage-input: none, background-color: rgb("#013656"),
   body
 ) = {
   // FRONTPAGE

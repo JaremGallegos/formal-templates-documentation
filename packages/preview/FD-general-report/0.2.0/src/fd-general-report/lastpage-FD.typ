@@ -1,6 +1,6 @@
 #let last-page(
   department: "", educational-center: "", address-i: "",
-  address-ii: "", department-website: "", background-color: rgb("#000000"),
+  address-ii: "", department-website: "", background-color: rgb("#013656"),
   body
 ) = {
   set page(

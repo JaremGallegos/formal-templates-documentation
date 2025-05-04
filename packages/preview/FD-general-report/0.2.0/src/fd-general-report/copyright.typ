@@ -14,7 +14,7 @@
   v(1em)
   grid(
     columns: (auto, 1fr), rows: (auto, auto, auto), gutter: 1em, row-gutter: 1em,
-      [Copyright:], [El desarrollo del presente rpoyecto y diseño tiene derecos de autor utilizando los derechos reservados para el autor  Gallegos Yanarico, Jarem Joseph y derechos restringidos por CC license],
+      [Copyright:], [El desarrollo del presente proyecto y su diseño están protegidos por derechos de autor, con todos los derechos reservados para el autor Gallegos Yanarico, Jarem Joseph, y derechos restringidos bajo licencia Creative Commons (CC).],
       [Foto de Portada:], [CIBERTEC sede Arequipa, 2025])
   pagebreak()
   body
